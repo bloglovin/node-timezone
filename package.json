@@ -7,6 +7,9 @@
     "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha -- --ui bdd -R spec"
   },
   "author": "Patrik Ring",
+  "contributors": [
+    "Hugo Wetterberg <hugo@wetterberg.nu>"
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "repository": {
@@ -14,6 +17,7 @@
     "url": "git://github.com/bloglovin/node-timezone.git"
   },
   "dependencies": {
+    "node-gyp": "~0.12.2"
   },
   "devDependencies": {
     "mocha": "*",
