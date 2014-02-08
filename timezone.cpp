@@ -1,5 +1,6 @@
 #include "timezone.hpp"
 #include <time.h>
+#include <cstring>
 #include <stdlib.h>
 #include <iostream>
 
